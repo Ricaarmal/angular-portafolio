@@ -1,0 +1,7 @@
+.toolbar .left {
+  float: left;
+}
+.toolbar .right {
+  float: right;
+  padding-left: 700px;
+}

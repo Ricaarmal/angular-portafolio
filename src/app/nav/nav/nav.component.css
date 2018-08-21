@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Asap");
+
+@media (min-width: 650px) and (max-width: 1920px) {
+  nav {
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+    font-family: "Asap";
+    border-bottom: 5px solid black;
+    margin-right: 1px;
+  }
+
+  h2 {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  ul {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-left: 500px;
+  }
+
+  li {
+    display: inline;
+    margin-right: 30px;
+  }
+  li a {
+    color: black;
+  }
+  button {
+    display: none;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 649px) {
+  nav {
+    height: 50px;
+    width: 100vw;
+    background-color: gray;
+    font-family: "Asap";
+    border-bottom: 5px solid black;
+  }
+
+  h2 {
+    float: left;
+    font-size: 1.2em;
+  }
+
+  button {
+    padding-left: 120px;
+  }
+
+  ul {
+    display: none;
+  }
+}

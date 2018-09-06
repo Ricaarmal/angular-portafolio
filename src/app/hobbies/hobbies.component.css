@@ -7,9 +7,12 @@
 }
 
 img {
-  width: 300px;
+  width: 280px;
+  padding-left: 10px;
 }
 
 .card {
   width: 300px;
+  margin: 15px;
+  color: black;
 }

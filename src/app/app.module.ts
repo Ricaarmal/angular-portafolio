@@ -50,9 +50,10 @@ import { NavComponent } from './nav/nav/nav.component';
 import { FooterComponent } from './nav/footer/footer.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProyectsHobbiesComponent } from './proyects-hobbies/proyects-hobbies.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, FooterComponent, HobbiesComponent, ProyectsHobbiesComponent],
+  declarations: [AppComponent, NavComponent, FooterComponent, HobbiesComponent, ProyectsHobbiesComponent, ContactComponent],
   imports: [
     BrowserModule,
     NgbModule,

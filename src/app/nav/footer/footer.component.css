@@ -1,7 +1,22 @@
-.toolbar .left {
-  float: left;
+@media (min-width: 650px) and (max-width: 1920px)
+{
+  .toolbar .left {
+    float: left;
+  }
+  .toolbar .right {
+    float: right;
+    padding-left: 400px;
+  }
 }
-.toolbar .right {
-  float: right;
-  padding-left: 700px;
+
+@media (min-width: 200px) and (max-width: 649px){
+  .toolbar .right{
+    font-size: 10px;
+    padding-left: 90px; 
+  }
+
+  .toolbar .left {
+    float: left;
+    font-size: 10px;
+  }
 }

@@ -1,10 +1,11 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
-import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
-import "hammerjs";
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import 'hammerjs';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
-//angular material
+// angular material
 import {
   MatButtonModule,
   MatCheckboxModule,
@@ -42,14 +43,16 @@ import {
   MatTabsModule,
   MatTooltipModule,
   MatTreeModule
-} from "@angular/material";
+} from '@angular/material';
 
-import { AppComponent } from "./app.component";
-import { NavComponent } from "./nav/nav/nav.component";
-import { FooterComponent } from "./nav/footer/footer.component";
+import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav/nav.component';
+import { FooterComponent } from './nav/footer/footer.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
+import { ProyectsHobbiesComponent } from './proyects-hobbies/proyects-hobbies.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, FooterComponent],
+  declarations: [AppComponent, NavComponent, FooterComponent, HobbiesComponent, ProyectsHobbiesComponent],
   imports: [
     BrowserModule,
     NgbModule,
@@ -58,7 +61,9 @@ import { FooterComponent } from "./nav/footer/footer.component";
     MatCheckboxModule,
     MatMenuModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

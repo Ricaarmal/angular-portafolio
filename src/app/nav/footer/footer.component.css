@@ -1,18 +1,17 @@
-@media (min-width: 650px) and (max-width: 1920px)
-{
+@media (min-width: 1024px) and (max-width: 1920px) {
   .toolbar .left {
     float: left;
   }
   .toolbar .right {
     float: right;
-    padding-left: 400px;
+    padding-left: 720px;
   }
 }
 
-@media (min-width: 200px) and (max-width: 649px){
-  .toolbar .right{
+@media (min-width: 200px) and (max-width: 649px) {
+  .toolbar .right {
     font-size: 10px;
-    padding-left: 90px; 
+    padding-left: 90px;
   }
 
   .toolbar .left {

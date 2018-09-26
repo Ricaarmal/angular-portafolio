@@ -7,12 +7,20 @@
 }
 
 img {
-  width: 280px;
-  padding-left: 10px;
+  width: 300px;
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   margin: 15px;
   color: black;
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
 }
